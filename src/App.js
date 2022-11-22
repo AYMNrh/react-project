@@ -39,8 +39,8 @@ function App() {
      <div className='flex flex-row self-center'>
     <button className='btn btn-primary w-32 self-center m-2' onClick={()=>{plus(ttt+1)}}>CLICK ME</button>
     <button className='btn btn-secondary w-24 self-center m-2' onClick={()=>{plus(tt)}}>RESET</button>
-    <button className='btn btn-accent w-24 self-center m-2' onClick={()=>{change('cyberpunk')}}>cyberpunk</button>
-    
+    <button className='btn btn-accent w-24 self-center m-2' onClick={()=>{change('cyberpunk')}}>Cyberpunk</button>
+    <button className='btn btn-neutral w-24 self-center m-2' onClick={()=>{change('dark')}}>Dark</button>
     </div>
     <select onChange={handleChange} className="select select-secondary w-full max-w-xs self-center m-3" >
       {array.map( (theme)=>
